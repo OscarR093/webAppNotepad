@@ -6,6 +6,9 @@
     <title>WebAppNotepad</title>
     <!-- Estilos personalizados-->
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -17,19 +20,20 @@
 
     <div class="container">
       
-     
+     <div id="app"></div>
        <!--inicia formulario-->
      <form action="" id="formulario" class="formulario">
         <input class="texto" type="text" id="nombre" placeholder="nombre de la nota">
         <textarea class="textarea" name="nota" id="nota" rows="5" cols="40" placeholder="Escribe aqui tu nota..."></textarea>
         <input class="submit" type="submit" id="enviar" value="Agregar nota">
      </form>
+    
+     <div class="Showlist" id="Showlist"></div>
 
-     <div class="Showlist">
-        <h3>mostrar datos aqui</h3>
-     </div>
-     
-    </div>
+    
+</div>
     
 </body>
+
+<script src="main.js" type="module"></script>
 </html>
