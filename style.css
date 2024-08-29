@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: sans-serif;
+    color: rgb(47, 203, 255);
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    
+}
+
+nav{
+    display: block;
+    width: 100%;
+    border-bottom: solid;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    border-right: solid;
+    justify-content: space-between; /* Para espaciar los elementos */
+    gap: 20px;
+    width: 45%;
+    
+}
+
+input[type="text"] {
+    background-color: rgb(32, 32, 32);
+    padding: 3px;
+    color:rgb(47, 203, 255);
+    font-family: sans-serif;
+    width: 80%;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+input[type="text"]::placeholder{
+    color: rgb(47, 203, 255);
+}
+
+form .textarea {
+font-family: sans-serif;
+background-color: rgb(32, 32, 32);
+color: rgb(47, 203, 255);
+padding: 3px;
+width: 80%;
+border-style: solid;
+border-radius: 10px;
+}
+.textarea::placeholder{
+    color: rgb(47, 203, 255);
+}
+
+form .submit{
+    width: 25%;
+    border-style:solid;
+    border-color: rgb(47, 203, 255);
+    background-color: rgb(32, 32, 32);
+    color: rgb(47, 203, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+form .submit:hover{
+    border-color: rgb(47, 203, 255);
+    background-color:  rgb(47, 203, 255);
+    color: black;
+}
+
+.Showlist {
+    width: 45%; /* Ajusta el ancho según sea necesario */
+    margin-left: 20px; /* Espacio entre el formulario y la lista */
+    
+
+}
